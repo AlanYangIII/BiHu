@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:background="@mipmap/main"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <EditText
+        android:hint="请输入用户名"
+        android:textColorHint="#E5E5E5"
+        android:paddingStart="10dp"
+        android:padding="10dp"
+        android:id="@+id/login1"
+        android:layout_marginTop="250dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#303030"
+        android:maxLines="1"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:hint="请输入密码"
+        android:paddingStart="10dp"
+        android:textColorHint="#E5E5E5"
+        android:padding="10dp"
+        android:id="@+id/login2"
+        android:layout_marginTop="35dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/login1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#303030"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login2"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="记住密码"
+        android:textColor="#FAFAFA"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="登录"
+        android:background="@drawable/bt_shapee"
+        android:textColor="#F4F4F4"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

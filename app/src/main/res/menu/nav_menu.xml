@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Question"
+        android:icon="@mipmap/question"
+        android:title="提问"/>
+    <item
+        android:id="@+id/Favorate"
+        android:icon="@mipmap/favorate"
+        android:title="我的收藏"
+        />
+    <item
+        android:id="@+id/AvatarItem"
+        android:icon="@mipmap/avatar"
+        android:title="修改头像"
+        />
+    <item
+        android:id="@+id/Key"
+        android:icon="@mipmap/key"
+        android:title="修改密码"/>
+    <item
+        android:id="@+id/Logout"
+        android:icon="@mipmap/logout"
+        android:title="退出登录"/>
+</group>
+</menu>

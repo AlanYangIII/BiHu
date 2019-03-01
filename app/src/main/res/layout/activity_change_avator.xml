@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:background="@mipmap/main"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <Button
+        android:id="@+id/choosePhoto"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirmPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="从相册中选择图片"
+        android:background="@drawable/bt_shapee"
+        android:textColor="#F4F4F4"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/confirmPhoto"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="确认上传"
+        android:background="@drawable/bt_shapee"
+        android:textColor="#F4F4F4"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/backToCenter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirmPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="返回"
+        android:background="@drawable/bt_shapee"
+        android:textColor="#F4F4F4"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
